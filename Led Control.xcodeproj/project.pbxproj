@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF3DF851C48D333000EBA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3DF841C48D333000EBA87 /* AppDelegate.swift */; };
+		ADF3DF871C48D333000EBA87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3DF861C48D333000EBA87 /* ViewController.swift */; };
+		ADF3DF8A1C48D333000EBA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF881C48D333000EBA87 /* Main.storyboard */; };
+		ADF3DF8C1C48D333000EBA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */; };
+		ADF3DF8F1C48D333000EBA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF8D1C48D333000EBA87 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADF3DF811C48D333000EBA87 /* Led Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Led Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3DF841C48D333000EBA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF3DF861C48D333000EBA87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF3DF891C48D333000EBA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF3DF8E1C48D333000EBA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF3DF901C48D333000EBA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF3DF7E1C48D333000EBA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF3DF781C48D333000EBA87 = {
+			isa = PBXGroup;
+			children = (
+				ADF3DF831C48D333000EBA87 /* Led Control */,
+				ADF3DF821C48D333000EBA87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF3DF821C48D333000EBA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3DF811C48D333000EBA87 /* Led Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF3DF831C48D333000EBA87 /* Led Control */ = {
+			isa = PBXGroup;
+			children = (
+				ADF3DF841C48D333000EBA87 /* AppDelegate.swift */,
+				ADF3DF861C48D333000EBA87 /* ViewController.swift */,
+				ADF3DF881C48D333000EBA87 /* Main.storyboard */,
+				ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */,
+				ADF3DF8D1C48D333000EBA87 /* LaunchScreen.storyboard */,
+				ADF3DF901C48D333000EBA87 /* Info.plist */,
+			);
+			path = "Led Control";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF3DF801C48D333000EBA87 /* Led Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF3DF931C48D333000EBA87 /* Build configuration list for PBXNativeTarget "Led Control" */;
+			buildPhases = (
+				ADF3DF7D1C48D333000EBA87 /* Sources */,
+				ADF3DF7E1C48D333000EBA87 /* Frameworks */,
+				ADF3DF7F1C48D333000EBA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Led Control";
+			productName = "Led Control";
+			productReference = ADF3DF811C48D333000EBA87 /* Led Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF3DF791C48D333000EBA87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Daitensai;
+				TargetAttributes = {
+					ADF3DF801C48D333000EBA87 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ADF3DF7C1C48D333000EBA87 /* Build configuration list for PBXProject "Led Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF3DF781C48D333000EBA87;
+			productRefGroup = ADF3DF821C48D333000EBA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF3DF801C48D333000EBA87 /* Led Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF3DF7F1C48D333000EBA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3DF8F1C48D333000EBA87 /* LaunchScreen.storyboard in Resources */,
+				ADF3DF8C1C48D333000EBA87 /* Assets.xcassets in Resources */,
+				ADF3DF8A1C48D333000EBA87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF3DF7D1C48D333000EBA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF3DF871C48D333000EBA87 /* ViewController.swift in Sources */,
+				ADF3DF851C48D333000EBA87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADF3DF881C48D333000EBA87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF3DF891C48D333000EBA87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF3DF8D1C48D333000EBA87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF3DF8E1C48D333000EBA87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF3DF911C48D333000EBA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF3DF921C48D333000EBA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF3DF941C48D333000EBA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Led Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Led-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF3DF951C48D333000EBA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Led Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Led-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF3DF7C1C48D333000EBA87 /* Build configuration list for PBXProject "Led Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3DF911C48D333000EBA87 /* Debug */,
+				ADF3DF921C48D333000EBA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF3DF931C48D333000EBA87 /* Build configuration list for PBXNativeTarget "Led Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF3DF941C48D333000EBA87 /* Debug */,
+				ADF3DF951C48D333000EBA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF3DF791C48D333000EBA87 /* Project object */;
+}
