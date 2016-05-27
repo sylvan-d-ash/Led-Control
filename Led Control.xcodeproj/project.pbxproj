@@ -12,6 +12,8 @@
 		ADF3DF8A1C48D333000EBA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF881C48D333000EBA87 /* Main.storyboard */; };
 		ADF3DF8C1C48D333000EBA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */; };
 		ADF3DF8F1C48D333000EBA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF3DF8D1C48D333000EBA87 /* LaunchScreen.storyboard */; };
+		ADF3DF971C4A22EA000EBA87 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3DF961C4A22EA000EBA87 /* SettingsViewController.swift */; };
+		ADF3DF991C4A2ABB000EBA87 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF3DF981C4A2ABB000EBA87 /* UIExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF3DF8E1C48D333000EBA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF3DF901C48D333000EBA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF3DF961C4A22EA000EBA87 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ADF3DF981C4A2ABB000EBA87 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ADF3DF8B1C48D333000EBA87 /* Assets.xcassets */,
 				ADF3DF8D1C48D333000EBA87 /* LaunchScreen.storyboard */,
 				ADF3DF901C48D333000EBA87 /* Info.plist */,
+				ADF3DF961C4A22EA000EBA87 /* SettingsViewController.swift */,
+				ADF3DF981C4A2ABB000EBA87 /* UIExtensions.swift */,
 			);
 			path = "Led Control";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					ADF3DF801C48D333000EBA87 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZZRC88RP44;
 					};
 				};
 			};
@@ -137,6 +144,8 @@
 			files = (
 				ADF3DF871C48D333000EBA87 /* ViewController.swift in Sources */,
 				ADF3DF851C48D333000EBA87 /* AppDelegate.swift in Sources */,
+				ADF3DF971C4A22EA000EBA87 /* SettingsViewController.swift in Sources */,
+				ADF3DF991C4A2ABB000EBA87 /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,10 +258,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Led Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Led-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daitensai.LedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -260,10 +273,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = "Led Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.daitensai.Led-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daitensai.LedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +303,7 @@
 				ADF3DF951C48D333000EBA87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

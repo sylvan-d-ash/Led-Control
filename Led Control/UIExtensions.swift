@@ -6,4 +6,18 @@
 //  Copyright © 2016 Daitensai. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UITextField {
+    /**
+     Action for done button
+     */
+    func doneButtonDidPress(sender: AnyObject) {
+        self.resignFirstResponder()
+    }
+    
+    func textFieldShouldReturn(textField : UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}
